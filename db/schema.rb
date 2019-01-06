@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 7) do
   create_table "characters", force: :cascade do |t|
     t.string "name"
     t.integer "show_id"
-    t.string "catch_phrase"
+    t.string "catchphrase"
   end
 
   create_table "networks", force: :cascade do |t|
